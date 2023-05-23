@@ -29,8 +29,11 @@ class Firstpage extends StatefulWidget {
 class _FirstpageState extends State<Firstpage> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [Text('updating version..........')],
+    return Scaffold(
+      appBar: AppBar(),
+      body: Column(
+        children: [Text('updating version..........')],
+      ),
     );
   }
 }
